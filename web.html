@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CloudyOne | Modern Microsoft Cloud & Endpoint Management</title>
+  <meta name="description" content="Secure, migrate, automate, and scale your IT infrastructure with expert Azure, Microsoft 365, and Intune consulting." />
+  
+  <link rel="icon" type="image/png" href="logo.png" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              500: '#0078d4', // Microsoft Azure Blue
+              600: '#0062ad',
+              900: '#0b192c',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-[#0b1329] text-slate-100 font-sans antialiased selection:bg-blue-500 selection:text-white">
+
+  <header class="fixed top-0 inset-x-0 z-50 bg-[#0b1329]/80 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      
+      <a href="#" class="flex items-center gap-3">
+        <img 
+          src="logo.png" 
+          alt="CloudyOne Logo" 
+          class="h-10 w-auto object-contain"
+        />
+        <div class="flex flex-col">
+          <span class="text-xl font-bold tracking-tight text-white leading-tight">Cloudy<span class="text-blue-400">One</span></span>
+          <span class="text-[10px] text-slate-400 tracking-wider uppercase font-semibold">Chase The Clouds</span>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+        <a href="#services" class="hover:text-blue-400 transition">Services</a>
+        <a href="#solutions" class="hover:text-blue-400 transition">Solutions</a>
+        <a href="#contact" class="px-5 py-2.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-semibold transition shadow-lg shadow-blue-600/30">
+          Get Started
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="relative pt-36 pb-20 md:pt-48 md:pb-32 overflow-hidden">
+    <div class="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top,_rgba(0,120,212,0.18),transparent_50%)]"></div>
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      
+      <div class="flex justify-center mb-8">
+        <div class="p-3 rounded-2xl bg-slate-900/90 border border-blue-500/30 shadow-2xl shadow-blue-500/20 backdrop-blur-sm">
+          <img 
+            src="logo.png" 
+            alt="CloudyOne" 
+            class="h-24 sm:h-28 w-auto object-contain max-w-full"
+          />
+        </div>
+      </div>
+
+      <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-950/60 border border-blue-500/30 text-blue-300 text-xs font-semibold mb-6">
+        <span class="w-2 h-2 rounded-full bg-blue-400 animate-ping"></span>
+        Microsoft Cloud Solutions & Infrastructure
+      </div>
+      
+      <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white leading-tight mb-6">
+        Modern Cloud & Endpoint <br class="hidden sm:inline" />
+        <span class="bg-gradient-to-r from-blue-400 to-sky-200 bg-clip-text text-transparent">
+          Management Secure, Migrate, Automate.
+        </span>
+      </h1>
+
+      <p class="max-w-2xl mx-auto text-lg text-slate-300 mb-10 leading-relaxed">
+        Empowering enterprises with resilient Azure architectures, Microsoft Intune endpoint security, and seamless tenant migrations.
+      </p>
+
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="#contact" class="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold transition flex items-center justify-center gap-2 shadow-xl shadow-blue-600/30">
+          <span>Book Cloud Consultation</span>
+          <i data-lucide="arrow-right" class="w-4 h-4"></i>
+        </a>
+        <a href="#services" class="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-slate-900/80 hover:bg-slate-800 border border-slate-700 text-slate-200 font-medium transition flex items-center justify-center">
+          Explore Services
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="py-20 border-t border-slate-800/80 bg-slate-950/40">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="text-xs uppercase tracking-widest font-bold text-blue-400 mb-3">Enterprise Offerings</h2>
+        <p class="text-3xl font-bold text-white">Full-Lifecycle Microsoft Cloud Capabilities</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <div class="p-8 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-blue-500/40 transition group">
+          <div class="w-12 h-12 rounded-xl bg-blue-500/10 text-blue-400 flex items-center justify-center mb-6 group-hover:scale-110 transition">
+            <i data-lucide="server" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Azure Cloud Infrastructure</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">
+            Architecting Virtual Networks (VNets), Site-to-Site VPN Gateways, VM Scale Sets, and resilient cloud topographies.
+          </p>
+        </div>
+
+        <div class="p-8 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-blue-500/40 transition group">
+          <div class="w-12 h-12 rounded-xl bg-sky-500/10 text-sky-400 flex items-center justify-center mb-6 group-hover:scale-110 transition">
+            <i data-lucide="shield-check" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Endpoint & Intune Security</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">
+            Device enrollment (MDM/MAM), dynamic group rules, AppLocker policy enforcement, and Entra ID compliance.
+          </p>
+        </div>
+
+        <div class="p-8 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-blue-500/40 transition group">
+          <div class="w-12 h-12 rounded-xl bg-indigo-500/10 text-indigo-400 flex items-center justify-center mb-6 group-hover:scale-110 transition">
+            <i data-lucide="repeat" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Tenant & Data Migrations</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">
+            Cross-tenant migrations for mailboxes, OneDrive, and SharePoint repositories with zero operational downtime.
+          </p>
+        </div>
+
+        <div class="p-8 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-blue-500/40 transition group">
+          <div class="w-12 h-12 rounded-xl bg-cyan-500/10 text-cyan-400 flex items-center justify-center mb-6 group-hover:scale-110 transition">
+            <i data-lucide="cpu" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Cloud Automation & Runbooks</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">
+            Automated performance alerting, threshold metric management, and cost-efficient Azure automation playbooks.
+          </p>
+        </div>
+
+        <div class="p-8 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-blue-500/40 transition group">
+          <div class="w-12 h-12 rounded-xl bg-teal-500/10 text-teal-400 flex items-center justify-center mb-6 group-hover:scale-110 transition">
+            <i data-lucide="database" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Data Engineering & Pipelines</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">
+            Scalable Azure Data Factory ETL pipelines, Microsoft Fabric integrations, and analytics-ready storage layers.
+          </p>
+        </div>
+
+        <div class="p-8 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-blue-500/40 transition group">
+          <div class="w-12 h-12 rounded-xl bg-blue-500/10 text-blue-400 flex items-center justify-center mb-6 group-hover:scale-110 transition">
+            <i data-lucide="headphones" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Dedicated Cloud Support</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">
+            Level-2 and Level-3 escalation support for Microsoft 365 services, licensing management, and identity troubleshooting.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="solutions" class="py-20 bg-[#080e1e]">
+    <div class="max-w-4xl mx-auto px-6">
+      <div class="p-8 sm:p-10 rounded-3xl bg-slate-900/90 border border-slate-800">
+        <h2 class="text-2xl font-bold text-white mb-2">Estimate Cloud Infrastructure Scope</h2>
+        <p class="text-sm text-slate-400 mb-6">Select your team size to estimate setup architecture requirements.</p>
+        
+        <div class="space-y-6">
+          <div>
+            <div class="flex justify-between text-sm font-semibold mb-2">
+              <span class="text-slate-300">Managed Endpoints / Users:</span>
+              <span id="userCountDisplay" class="text-blue-400 text-base">50 Users</span>
+            </div>
+            <input 
+              type="range" 
+              id="userSlider" 
+              min="5" 
+              max="500" 
+              value="50" 
+              step="5"
+              class="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-blue-500"
+              oninput="updateCalculator(this.value)"
+            />
+          </div>
+
+          <div class="grid sm:grid-cols-3 gap-4 pt-4 border-t border-slate-800 text-center">
+            <div class="p-4 rounded-xl bg-slate-950/60 border border-slate-800/80">
+              <div class="text-xs text-slate-400 uppercase tracking-wider">Recommended Setup</div>
+              <div id="archLevel" class="text-sm font-bold text-white mt-1">Hybrid Cloud & Intune</div>
+            </div>
+            <div class="p-4 rounded-xl bg-slate-950/60 border border-slate-800/80">
+              <div class="text-xs text-slate-400 uppercase tracking-wider">Migration Time</div>
+              <div id="estTimeline" class="text-sm font-bold text-white mt-1">3–5 Business Days</div>
+            </div>
+            <div class="p-4 rounded-xl bg-slate-950/60 border border-slate-800/80">
+              <div class="text-xs text-slate-400 uppercase tracking-wider">Support Tier</div>
+              <div id="supportTier" class="text-sm font-bold text-blue-400 mt-1">Standard 24/7 Monitoring</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-20">
+    <div class="max-w-3xl mx-auto px-6">
+      <div class="p-8 sm:p-12 rounded-3xl bg-slate-900/80 border border-slate-800 shadow-2xl">
+        <div class="text-center mb-8">
+          <h2 class="text-2xl sm:text-3xl font-bold text-white">Let’s Discuss Your Cloud Roadmap</h2>
+          <p class="text-sm text-slate-400 mt-2">Reach out directly to start your project or get enterprise cloud assistance.</p>
+        </div>
+
+        <form action="https://formsubmit.co/nilay05342@gmail.com" method="POST" class="space-y-4">
+          <input type="text" name="_honey" style="display:none">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_subject" value="New Inquiry from CloudyOne Website">
+          <input type="hidden" name="_template" value="table">
+
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 mb-1.5">Your Name</label>
+              <input type="text" name="name" required class="w-full px-4 py-3 rounded-lg bg-slate-950 border border-slate-800 text-white focus:outline-none focus:border-blue-500 transition text-sm" placeholder="Your Name" />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 mb-1.5">Email Address</label>
+              <input type="email" name="email" required class="w-full px-4 py-3 rounded-lg bg-slate-950 border border-slate-800 text-white focus:outline-none focus:border-blue-500 transition text-sm" placeholder="name@company.com" />
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-slate-300 mb-1.5">Service Required</label>
+            <select name="service" class="w-full px-4 py-3 rounded-lg bg-slate-950 border border-slate-800 text-white focus:outline-none focus:border-blue-500 transition text-sm">
+              <option value="Azure Infrastructure">Azure Cloud Infrastructure & Networking</option>
+              <option value="Intune / Endpoint Security">Microsoft Intune & Endpoint Management</option>
+              <option value="M365 Tenant Migration">Tenant / Cloud Data Migration</option>
+              <option value="Cloud Support & Automation">Cloud Support & Automation</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-slate-300 mb-1.5">Project Scope / Requirements</label>
+            <textarea name="message" rows="4" required class="w-full px-4 py-3 rounded-lg bg-slate-950 border border-slate-800 text-white focus:outline-none focus:border-blue-500 transition text-sm" placeholder="Tell us about your organization's cloud needs..."></textarea>
+          </div>
+
+          <button type="submit" class="w-full py-3.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm transition shadow-lg shadow-blue-600/30 cursor-pointer">
+            Submit Request
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-8 border-t border-slate-800 text-center text-xs text-slate-500">
+    <div class="flex items-center justify-center gap-2 mb-2">
+      <img src="logo.png" alt="CloudyOne" class="h-5 w-auto object-contain" />
+      <span class="text-slate-400 font-semibold">CloudyOne Private Limited</span>
+    </div>
+    <p>&copy; 2026 CloudyOne Private Limited. All rights reserved. | <a href="https://cloudyone.help" class="text-blue-400">cloudyone.help</a></p>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+
+    function updateCalculator(val) {
+      document.getElementById('userCountDisplay').innerText = val + ' Users';
+      const arch = document.getElementById('archLevel');
+      const time = document.getElementById('estTimeline');
+      const tier = document.getElementById('supportTier');
+
+      if (val <= 25) {
+        arch.innerText = "Basic Intune & M365";
+        time.innerText = "1–2 Business Days";
+        tier.innerText = "Standard Cloud Support";
+      } else if (val <= 100) {
+        arch.innerText = "Hybrid VNet & Intune MDM";
+        time.innerText = "3–5 Business Days";
+        tier.innerText = "Priority 24/7 Alerting";
+      } else {
+        arch.innerText = "Enterprise Azure + Multi-Region";
+        time.innerText = "1–2 Weeks";
+        tier.innerText = "Dedicated Cloud Engineer";
+      }
+    }
+  </script>
+</body>
+</html>
